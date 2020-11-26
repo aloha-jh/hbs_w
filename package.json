@@ -1,0 +1,30 @@
+{
+  "name": "hbs-webpack-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "build": "webpack ",
+    "buildDev": "nodemon --exec webpack ./dist/bundle.js --delay 3"
+  },
+  "author": "ljh",
+  "license": "MIT",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "express-session": "^1.17.1",
+    "handlebars": "^4.7.6",
+    "handlebars-loader": "^1.7.1",
+    "handlebars-webpack-plugin": "^2.2.1",
+    "html-webpack-plugin": "^4.5.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6",
+    "webpack": "^4.44.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.2.0"
+  }
+}
